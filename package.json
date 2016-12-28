@@ -1,0 +1,19 @@
+{
+  "name": "angular-routing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js",
+    "postinstall": "cp node_modules/angular/angular.min.js server/public/vendor && cp node_modules/angular-route/angular-route.min.js server/public/vendor"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-route": "^1.6.0",
+    "bootstrap": "^3.3.7",
+    "express": "^4.14.0"
+  }
+}
